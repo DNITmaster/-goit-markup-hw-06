@@ -216,7 +216,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero.bg.jpg);
+    url(../images/img/hero.bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -864,6 +864,7 @@ img {
 }
 
 .modal-text {
+  display: block;
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -922,6 +923,7 @@ img {
 .input-text {
   font-size: 12px;
   line-height: 1.16;
+  display: block;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
 }
